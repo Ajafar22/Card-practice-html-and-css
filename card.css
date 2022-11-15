@@ -1,0 +1,32 @@
+body{
+    box-sizing: border-box;
+}
+
+#main{
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 3px solid grey;
+    border-radius: 10px;
+    background: linear-gradient(40deg, rgb(85, 173, 85),  rgb(223, 127, 71))
+}
+
+#image{
+    width: 200px;
+    height: 150px;
+   
+  
+}
+#image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+   
+}
+#content{
+    color: white;
+    text-align: right;
+}
